@@ -39,14 +39,14 @@ import Cart2 from "./components/cart2";
 import Footer from "./components/footer";
 
 let p1sec2 = [
-  { id: "2", name: "Reactj" },
-  { id: "3", name: "VueJ" },
-  { id: "4", name: "Angula" },
+  { id: "2", name: "Reactjs" },
+  { id: "3", name: "VueJS" },
+  { id: "4", name: "Angular" },
   { id: "5", name: "Design" },
   { id: "6", name: ".NET" },
   { id: "7", name: "PHP" },
-  { id: "8", name: "jav" },
-  { id: "9", name: "Mobil" },
+  { id: "8", name: "java" },
+  { id: "9", name: "Mobile" },
 ];
 
 let cartsec3 = [

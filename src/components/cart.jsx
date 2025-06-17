@@ -28,8 +28,16 @@ const Cart = ({
             />
           )}
           <p className="w-[60%]  text-[#171717] font-semibold ">{name}</p>
-          <p className="text-[#021A84] bg-[#021a8417] text-[12px] py-0.5 px-3 rounded-[8px] ">
-            Full-time
+          <p>
+            {status ? (
+              <p className="text-green-600 bg-green-100 text-[12px] py-0.5 px-3 rounded-[8px] font-bold ">
+                Active
+              </p>
+            ) : (
+              <p className="text-red-600 bg-red-100 text-[12px] py-0.5 px-3 rounded-[8px] font-bold ">
+                Inactive
+              </p>
+            )}
           </p>
         </div>
 
